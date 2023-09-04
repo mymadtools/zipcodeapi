@@ -2,7 +2,7 @@
 
 exports.handler = async function(event, context) {
     // Replace 'YOUR_API_KEY' with your actual API key
-    const apiKey = '01H9DT3PFG6J7NTEXX4QXQHFS5';
+    const apiKey = 'api-key';
 
     const zipcode = event.queryStringParameters.zipcode;
     const countryCode = event.queryStringParameters.countryCode;
